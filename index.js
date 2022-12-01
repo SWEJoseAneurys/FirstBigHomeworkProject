@@ -232,3 +232,15 @@ const users = [
   ];
 
 console.log(users);
+console.log("");
+
+
+const nullifyNumbers = () => {
+    users.forEach((user) => {
+        user.phone = null
+    })
+};
+
+nullifyNumbers();
+
+console.log(users);
